@@ -1,0 +1,10 @@
+This script will help you deploy Trellix Agent by download Trellix Smart Installer (URL Deployement Method), then install Trellix ENS.
+
+It will caculate your physical memory, then download smart installer according to your RAM. For example, you have 8GB RAM on laptop, this script firstly check your ram then download Smart Installer for 8GB RAM PC.
+
+Firstly, you need open script and edit following variable:
+$8GB_URL = ""
+$4GB_URL = ""
+$2GB_URL = ""
+Secondary, you need to host o website that allow you to download TrellixENS (you can run "python3 -m http.server" to host a simple web)
+$ENS_URL = "http://192.168.111.149:8000/Trellix/TrellixENS.zip"
